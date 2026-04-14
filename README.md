@@ -55,7 +55,7 @@ To launch our interactive detection system, navigate to the Demo folder and run:
 ```bash
 cd Demo
 python app_demo.py
----
+```
 
 ## 👥 Statement of Contribution
 | Name | Core Tasks |
