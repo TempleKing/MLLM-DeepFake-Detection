@@ -32,9 +32,7 @@ Our Gradio-based analyzer provides real-time detection and interpretable reasoni
 
 > [!TIP]
 > **Interactive Demo Video:**
-> <video src="https://github.com/TempleKing/MLLM-DeepFake-Detection/raw/main/Demo/demo.mp4" controls width="100%" preload="auto">
->   Your browser does not support the video tag.
-> </video>
+![Project Demo](https://github.com/TempleKing/MLLM-DeepFake-Detection/raw/main/Demo/demo.mp4)
 
 ---
 
