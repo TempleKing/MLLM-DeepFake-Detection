@@ -56,7 +56,7 @@ To run the scripts and notebooks, please organize your local images as follows:
 - Ensure the folder contains both `Real` and `Fake` subdirectories (consistent with the file structure).
 
 ### 2. Step-by-Step Reproduction
-We recommend navigating through the folders in the orders.
+We recommend navigating folders in order.
 
 ### 3. Requirements
 - **API Key**: A valid Qwen (DashScope) API Key is required in the notebooks.
