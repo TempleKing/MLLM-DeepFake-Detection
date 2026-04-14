@@ -1,0 +1,5 @@
+Category,Accuracy,F1-Score,Real Acc,Fake Acc,Total
+face,0.725,0.645,0.95,0.5,200
+animal,0.71,0.603,0.98,0.44,200
+object,0.65,0.507,0.94,0.36,200
+nature,0.595,0.362,0.96,0.23,200
