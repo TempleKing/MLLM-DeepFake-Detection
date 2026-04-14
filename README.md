@@ -38,12 +38,11 @@ Our Gradio-based analyzer provides real-time detection and interpretable reasoni
 ## 📊 Core Experimental Findings
 
 > [!IMPORTANT]
-> **Key takeaways from our 5-stage experiment pipeline:**
-> * **Interpretability:** MLLMs provide human-readable reasoning that traditional "black-box" baselines (FFT/CLIP) lack.
-> * **Prompt Impact:** Chain-of-Thought (CoT) prompting significantly mitigates the "Real-Image Bias".
-> * **The "Lighting" Challenge:** According to our Artifact Taxonomy, Lighting Consistency is the most common reason for MLLM misjudgment.
-> * **Content Sensitivity:** Detection accuracy is highest for Faces but lowest for complex Nature/Scenery images.
-
+> **Key takeaways from our comprehensive evaluation pipeline:**
+> * **Interpretability vs. Hallucination:** While MLLMs (like Qwen3-32B) match traditional baselines (CLIP) in accuracy, their multi-step reasoning can counter-productively lead to **"Logical Over-rationalization"**—using real-world physics to justify obvious AI artifacts.
+> * **Prompt Polarization & Multi-Agent Solution:** Our ablation study reveals that an *Expert Persona* prompt maximizes fake detection but triggers a "Paranoia Effect" (high false positives). Conversely, a *Knowledge Checklist* prompt eliminates false alarms but causes "Attention Narrowing". We propose a **cascaded multi-agent architecture** to balance this trade-off.
+> * **Generator Evolution Challenge:** Advanced diffusion models are significantly harder to detect than traditional GANs. Notably, **Midjourney** drops the MLLM's detection accuracy to near random guessing (50.5%).
+> * **Content Category Sensitivity:** MLLMs exhibit a strong "Real-Image Bias". Detection accuracy is highest for **Faces (72.5%)** due to sensitivity to structural anomalies, but plummets for complex **Nature scenes (59.5%)**, where models suffer from "Complexity-driven Misguidance".
 ---
 
 ## 🛠️ Quick Start
@@ -56,6 +55,7 @@ To launch our interactive detection system, navigate to the Demo folder and run:
 ```bash
 cd Demo
 python app_demo.py
+---
 
 ## 👥 Statement of Contribution
 | Name | Core Tasks |
