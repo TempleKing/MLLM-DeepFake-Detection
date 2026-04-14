@@ -20,7 +20,6 @@ As the project consists of five independent experiments, the repository is organ
 - `Exp4_ContentCategory/` : Detection difficulty across image categories.
 - `Demo/` : Source code for the Gradio DeepFake Analyzer.
 - `sample_data/` : Sample images for testing code execution.
-- `DSAI5201_group7_report.pdf` : Full technical report.
 
 > **Note on Datasets:** Due to GitHub's file size limits, only a small subset of sample data is included in `sample_data/` to verify the code execution. The full dataset used in our experiments is based on the official [GenImage Dataset](https://github.com/GenImage-Dataset/GenImage).
 
