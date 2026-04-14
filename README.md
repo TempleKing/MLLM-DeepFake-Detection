@@ -31,7 +31,8 @@ As the project consists of five independent experiments, the repository is organ
 Our Gradio-based analyzer provides real-time detection and interpretable reasoning.
 
 > [!TIP]
-> **[Watch the Demo Video Here](./Demo/demo.mp4)**
+> **Interactive Demo Video:**
+> <video src="./Demo/demo.mp4" controls width="100%"></video>
 
 ---
 
