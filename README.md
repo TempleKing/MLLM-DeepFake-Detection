@@ -1,4 +1,3 @@
-![demo](https://github.com/user-attachments/assets/28ca96ec-8745-467a-941d-062f3b73806d)# Multi-generator AI Image Detection Based on GenImage
 **DSAI5201 Project**
 
 ## 📌 Project Overview
