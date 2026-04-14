@@ -1,5 +1,5 @@
 # Multi-generator AI Image Detection Based on GenImage
-**DSAI5201 Group Project (Group 7)**
+**DSAI5201 Project**
 
 ## 📌 Project Overview
 This project evaluates the performance of Multimodal Large Language Models (MLLMs), specifically **Qwen3-VL**, in detecting AI-generated images across various generators and content categories. Based on the **GenImage** dataset, we conducted a systematic evaluation pipeline including baseline comparison, prompt tuning, robustness testing, and failure case taxonomy.
