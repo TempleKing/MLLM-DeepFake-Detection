@@ -1,4 +1,4 @@
-# Multi-generator AI Image Detection Based on GenImage
+![demo](https://github.com/user-attachments/assets/28ca96ec-8745-467a-941d-062f3b73806d)# Multi-generator AI Image Detection Based on GenImage
 **DSAI5201 Project**
 
 ## 📌 Project Overview
@@ -33,7 +33,8 @@ Our Gradio-based analyzer provides real-time detection and interpretable reasoni
 > [!TIP]
 > **Interactive Demo Video:**
 > <br>
-> <video src="https://github.com/TempleKing/MLLM-DeepFake-Detection/raw/main/Demo/demo.mp4" controls="controls" width="100%" style="max-height:640px;"></video>
+![demo](https://github.com/user-attachments/assets/39e0e048-8d15-4bf8-82eb-83b0f3417ba9)
+
 
 ---
 
