@@ -56,24 +56,13 @@ To run the scripts and notebooks, please organize your local images as follows:
 - Ensure the folder contains both `Real` and `Fake` subdirectories (consistent with the file structure).
 
 ### 2. Step-by-Step Reproduction
-We recommend navigating through the folders in the orders:
+We recommend navigating through the folders in the orders.
 
 ### 3. Requirements
 - **API Key**: A valid Qwen (DashScope) API Key is required in the notebooks.
 - **Packages**: `pip install openai httpx matplotlib pillow gradio`
 
 ---
-
-## 👥 Statement of Contribution (Group 7)
-
-| Name | Core Tasks |
-| :--- | :--- |
-| **Gao Jing** | Report framework, Exp 1 (Baselines), and Dataset construction. |
-| **Zhao Kangzhe** | Exp 2 (Prompt Tuning) and quantitative visualization & analysis. |
-| **Sun Yaqi** | Exp 3 (Generator testing) and Exp 5 (Taxonomy formulation). |
-| **Yang Qi** | Exp 4 (Category analysis) and Demo System development. |
-
-> *All team members participated in the formulation of the Artifact Taxonomy and the qualitative analysis of MLLM failure cases.*
 
 ## 👥 Statement of Contribution
 | Name | Core Tasks |
